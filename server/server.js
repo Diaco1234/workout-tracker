@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const exerciseRoutes = require('./routes/exerciseRoutes');
 const app = express();
-const db = require('./config/db');
 
 app.use(cors());
 app.use(express.json());
